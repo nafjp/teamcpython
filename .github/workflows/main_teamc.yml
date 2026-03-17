@@ -74,4 +74,4 @@ jobs:
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_520A9DD6AB38456089B32B90E8157D9F }}
           sku: 'flexconsumption'
-        
+          scm-do-build-during-deployment: true        
